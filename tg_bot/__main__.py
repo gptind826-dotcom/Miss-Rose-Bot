@@ -45,7 +45,7 @@ And the following:
 
 DONATE_STRING = """ *🙋‍♂️Hello Bro or Sis*!
 
-*😎Contect @fadil_mk*
+*😎Contect @exucoder
 
 *👉Clcik 👉 /donate*
 """
@@ -146,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="⭕️ Command Help ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="📢GROUP", url="https://t.me/tmedping"), InlineKeyboardButton(text="🤠Credits", url="http://t.me/fadil_mk")],
+                     [InlineKeyboardButton(text="📢GROUP", url="https://t.me/exucoder1"), InlineKeyboardButton(text="🤠Credits", url="http://t.me/fadil_mk")],
                      [InlineKeyboardButton(text="➕ Add me to your group ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
     else:
         update.effective_message.reply_text("I AM ALIVE")
