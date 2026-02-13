@@ -10,9 +10,9 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "7398619523:AAGgVx8PBGDqZBTFy7_jKTVM-s5_DYcufEY"
+    OWNER_ID = "8469461108"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "@EXUCODER"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
